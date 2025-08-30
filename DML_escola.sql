@@ -65,7 +65,7 @@ INSERT INTO tb_professores(id_professor, nome_professor, departamento, ano_admis
 );
 
 SELECT * FROM tb_professores;
-
+UPDATE tb_professores SET departamento = 'Ciência da Computação' where id_professor = 1;
 
 INSERT INTO tb_disciplinas(nome_disciplina, duracao_anos, id_curso, id_professor) VALUES(
 'HTML, CSS, JAVASCRIPT',
