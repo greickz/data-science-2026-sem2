@@ -17,4 +17,4 @@ def conexao(query): # query = consulta que vai fazer
     dataframe = pd.read_sql(query, conection)   # Executar o SQL e armazenar o resultado no dataframe
 
     conection.close() # fecha a conexão
-    return dataframe
+    return dataframe 
